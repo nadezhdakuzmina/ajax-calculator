@@ -1,0 +1,22 @@
+{
+  "name": "ajax-calculator",
+  "version": "1.0.0",
+  "description": "ajax-calculator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadezhdakuzmina/ajax-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nadezhdakuzmina/ajax-calculator/issues"
+  },
+  "homepage": "https://github.com/nadezhdakuzmina/ajax-calculator#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

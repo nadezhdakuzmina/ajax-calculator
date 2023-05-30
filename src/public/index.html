@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Ajax Calculator</title>
+    </head>
+    <body>
+        <input name="valueA" placeholder="Число A" />
+        <select name="operationType">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="*">*</option>
+            <option value="^">^</option>
+            <option value="√">√</option>
+            <option value="sin">sin</option>
+            <option value="cos">cos</option>
+            <option value="tan">tan</option>
+            <option value="ctg">ctg</option>
+        </select>
+        <input name="valueB" placeholder="Число B" />
+        =
+        <input name="result" value="-" disabled="disabled" />
+        <button name="calc">Посчитать</button>
+        <br />
+        <div id="errors"></div>
+
+        <script src='main.js'></script>
+    </body>
+</html>
